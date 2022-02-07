@@ -4,7 +4,6 @@
 body {
   margin: 0;
   padding: 0;
-  padding-bottom: 100px;
 }
 
 header {
@@ -265,4 +264,138 @@ article .news_resume {
   line-height: 20px;
   color: #5c5c5c;
   margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+}
+
+.footer_menu {
+  display: flex;
+}
+.fm_1,
+.fm_2,
+.fm_3 {
+  flex: 1;
+  color: #fff;
+  padding: 20px;
+}
+
+.fm_1 {
+  background-color: #39aae1;
+}
+.fm_2 {
+  background-color: #0079c7;
+}
+.fm_3 {
+  background-color: #2b4c99;
+}
+
+.fm_1 h2,
+.fm_2 h2,
+.fm_3 h2 {
+  font-size: 24px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+.fm_1 p,
+.fm_2 p,
+.fm_3 p {
+  font-size: 0.8125rem;
+}
+
+.footer_area {
+  display: flex;
+}
+
+.footer_area .widget_body {
+  padding-right: 20px;
+}
+.footer_area .widget_body p {
+  font-size: 0.8125rem;
+  font-weight: normal;
+}
+
+.footer_areaitem {
+  color: #fff;
+  flex: 1;
+}
+
+.footer_areaitem p {
+  font-size: 0.875rem;
+  color: #909090;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .address .address_list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+footer .address .address_list .mail {
+  color: white;
+}
+
+footer .posts {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+footer .posts .posts_desc {
+  color: white;
+  font-size: 0.8125rem;
+  text-decoration: none;
+  padding-left: 10px;
+}
+footer .posts .posts_desc:hover {
+  text-decoration: underline;
+}
+
+footer .posts .btn {
+  text-decoration: none;
+  color: #36a9e1;
+  font-size: 0.75rem;
+}
+
+footer .tweets {
+  margin-top: 20px;
+}
+
+footer .tweets .tweets_desc {
+  font-size: 0.8125rem;
+  color: #909090;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .tweets a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .tweets a:hover {
+  text-decoration: underline;
+}
+
+footer .tweets .btn {
+  text-decoration: none;
+  color: #36a9e1;
+  font-size: 0.75rem;
+}
+.flexCollumn {
+  flex-direction: column;
+}
+
+footer .widget_title_text {
+  color: #fff;
+}
+
+.footer_copy {
+  border-top: 1px solid #2c2c2c;
+  height: 40px;
+  line-height: 40px;
+  color: #5c5c5c;
+  font-size: 0.75rem;
+  margin-top: 30px;
 }
