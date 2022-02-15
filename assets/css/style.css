@@ -411,9 +411,28 @@ footer .widget_title_text {
 
 /*** RESPONSIVIDADE ***/
 @media (max-width: 768px) {
+  .logo {
+    margin-left: 12px;
+  }
+
+  .banner_headline {
+    padding: 20px;
+  }
   aside .widget_dept {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
+  }
+
+  #geral .widget {
+    padding: 10px;
+  }
+
+  .list {
+    margin-left: 12px;
+  }
+
+  .footer_area .widget_body {
+    margin-left: 12px;
   }
 }
 
